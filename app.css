@@ -1,0 +1,104 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Fonts */
+body {
+    font-family: 'Arial', sans-serif;
+    background:linear-gradient(150deg,rgb(194, 242, 242),rgb(193, 144, 176));
+    font-size: 1.2rem;
+        color: #12032c;
+    line-height: 1.6;
+    text-shadow: 1px 1px rgb(207, 58, 152);
+}
+
+/* Header */
+header {
+    background:linear-gradient(150deg,rgb(8, 71, 71),rgb(125, 10, 85));
+   
+    color:white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    text-shadow: 1px 1px rgb(207, 58, 152);
+}
+
+/* Section Registration Form */
+#registration-form {
+    background:linear-gradient(150deg,rgb(194, 242, 242),rgb(193, 144, 176));
+    padding: 40px 20px;
+    padding-top:80px;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+button.cta-btn {
+    background-color: #21023b;
+    color: white;
+    padding: 15px;
+    font-size:2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+button.cta-btn:hover {
+    background-color: #a04575;
+}
+
+/* Confirmation Section */
+#confirmation {
+    background-color: #e6ffe6;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#confirmation h2 {
+    font-size: 32px;
+    color: #4CAF50;
+}
+
+/* Footer */
+footer {
+    background:linear-gradient(150deg,rgb(8, 71, 71),rgb(125, 10, 85));
+    text-shadow: 1px 1px rgb(207, 58, 152);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+    border-radius: 2%;
+    
+}
